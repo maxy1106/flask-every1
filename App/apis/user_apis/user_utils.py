@@ -1,7 +1,7 @@
 from flask_restful import abort
 
 from App.ext import cache
-from App.modeles.user import MovieUser
+from App.modeles.user import User
 
 
 def get_user(user_ident):
@@ -9,17 +9,17 @@ def get_user(user_ident):
     if not user_ident:
         return None
     #根据id查找
-    user = MovieUser.query.get(user_ident)
+    user = User.query.get(user_ident)
     if user:
         return user
 
     #根据phone 找
-    user = MovieUser.query.filter(MovieUser.phone.__eq__(user_ident)).first()
+    user = User.query.filter(User.phone.__eq__(user_ident)).first()
     if user:
         return user
 
     #根据username
-    user = MovieUser.query.filter(MovieUser.username.__eq__(user_ident)).first()
+    user = User.query.filter(User.username.__eq__(user_ident)).first()
     if user:
         return user
 

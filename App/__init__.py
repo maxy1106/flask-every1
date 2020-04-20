@@ -1,6 +1,6 @@
 
-from flask import Flask
 
+from flask import Flask
 from App.apis import init_api
 from App.ext import init_ext
 from App.middleware import load_middleware

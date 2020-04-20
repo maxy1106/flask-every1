@@ -1,4 +1,4 @@
-import pymysql
+
 def geturi(datainfo):
     enging = datainfo.get('ENGING')
     driver = datainfo.get('DRIVER')

@@ -4,7 +4,7 @@ from flask_restful import Resource, fields, abort, reqparse, marshal
 
 from App.apis.api_constant import HTTP_CREATE_OK, USER_ACTION_REGISTER, USER_ACTION_LOGIN, HTTP_OK
 from App.ext import cache
-from App.modeles.user import MovieUser
+from App.modeles.user import User
 from App.apis.user_apis.user_utils import get_user
 
 user_fields = {
