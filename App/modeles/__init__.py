@@ -1,6 +1,5 @@
 from App.ext import db
 
-
 class BaseModel(db.Model):
     __abstract__ = True
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -22,8 +21,3 @@ class BaseModel(db.Model):
         except Exception as e:
             print(e)
             return False
-
-
-class Goods(BaseModel):
-    goods_name = db.Column(db.String(128), unique=True)
-    goods_price = db.Column(db.Float, default=0)
