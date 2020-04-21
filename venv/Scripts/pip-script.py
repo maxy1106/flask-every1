@@ -1,4 +1,4 @@
-#!D:\py\maxyPython\flask_MultiProject\venv\Scripts\python.exe
+#!E:\maxypython\every\flask-every\venv\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==10.0.1','console_scripts','pip'
 __requires__ = 'pip==10.0.1'
 import re

@@ -1,0 +1,1 @@
+from App.modeles.article_models.article_model import Article
