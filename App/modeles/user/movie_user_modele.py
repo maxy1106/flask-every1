@@ -24,7 +24,7 @@ class User(BaseModel):
     money = db.Column(db.FLOAT)
     myBalanceIcon = db.Column(db.String(128))
     myBalanceTitle = db.Column(db.String(128))
-
+    
     @property
     def userpassword(self):
         raise Exception("password not access")

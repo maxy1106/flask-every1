@@ -10,10 +10,10 @@ USER_ACTION_YZM = 'useryzm'
 ARTICLE_ACTION_CREATE = "create"
 ARTICLE_ACTION_MODIFY = "modify"
 ARTICLE_ACTION_DELETE = "delete"
-ARTICLE_ACTION_SEARCH_ONE = "searchone"
-ARTICLE_ACTION_SEARCH = "search"
+ARTICLE_ACTION_SEARCH_ONE = "search_article_one"
+ARTICLE_ACTION_SEARCH = "search_article"
 
-
+CATEGORY_SEARCH = "category_search"
 
 
 USER_EXIST = 205
